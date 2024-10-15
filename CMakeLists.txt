@@ -3,5 +3,9 @@ project(Storage_model1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(storage_model main.cpp)
+add_executable(storage_model main.cpp
+        back/main_back.hpp
+        back/class_prod.hpp
+        back/database.hpp
+        back/help_func.hpp)
 

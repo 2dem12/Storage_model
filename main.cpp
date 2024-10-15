@@ -1,2 +1,5 @@
+#include "back/main_back.hpp"
 
-int main() {}
+int main() {
+    run();
+}
