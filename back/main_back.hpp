@@ -10,12 +10,12 @@
 #include "help_func.hpp"
 
 
-void next_day() {
+void generate_requests() {
       for (int shop = 0; shop < m; shop++) {
             std::vector<Prod> one_request = request();
             if (one_request.size() != 0) {
                   // all_requests.push_back(one_request);
-                  all_requests[0] = one_request;
+                  all_requests[day][m] = one_request;
             }
       }
 }
@@ -23,18 +23,12 @@ void next_day() {
 
 void run() {
       srand(time(0));
-      std::cin >> k >> m;
+      std::cin >> k >> m >> n;
+      std::vector<std::vector<std::vector<Prod>>> all_requests(n, std::vector<std::vector<Prod>> (m));
       products.resize(k);
       int q = 1;
       while (q) {
             std::cin >> q;
-            next_day();
-            for (auto i : all_requests) {
-                  for (auto j : i) {
-                        std::cout << j.name() << " " << j.cnt_pack() << " " << j.cnt_packaging();
-                        std::cout << '\n';
-                  }
-                  std::cout << '\n';
-            }
+            generate_requests();
       }
 }
