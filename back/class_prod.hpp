@@ -9,7 +9,7 @@ public:
 
     // Параметризованный конструктор
     Prod(std::string name, int delivery_date, int exp_date, int price)
-        :name_(name), delivery_date_(delivery_date), exp_date_(exp_date), priсe_(price), cnt_pack_(50) {}
+        :name_(name), delivery_date_(delivery_date), exp_date_(exp_date), priсe_(price), cnt_pack_((rand() % 100) + 20) {}
 
     ~Prod() {}
 
@@ -28,7 +28,6 @@ public:
     int delivery_date() const {
         return delivery_date_;
     }
-
     int exp_date() const {
         return exp_date_;
     }

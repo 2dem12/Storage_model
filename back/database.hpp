@@ -10,7 +10,7 @@ int k, m;
 
 
 // std::vector<Shop> shops;
-std::vector<Prod> data_requests;
+std::vector<std::vector<Prod>> all_requests = {{Prod()}};
 
 std::map<std::string, std::pair<int, int>> price_prod = {
     {"Egg", {70, 10}},
