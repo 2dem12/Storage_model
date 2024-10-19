@@ -1,4 +1,5 @@
 #include <string>
+#include <utility>
 #pragma once
 
 class Prod {
@@ -9,12 +10,12 @@ public:
 
     // Параметризованный конструктор
     Prod(std::string name, int delivery_date, int exp_date, int price)
-        :name_(name), delivery_date_(delivery_date), exp_date_(exp_date), priсe_(price), cnt_pack_((rand() % 100) + 20) {}
+        :name_(std::move(name)), delivery_date_(delivery_date), exp_date_(exp_date), priсe_(price), cnt_pack_((rand() % 100) + 20) {}
 
     Prod(std::string name, int delivery_date, int exp_date, int price, int cnt_pack)
         :name_(name), delivery_date_(delivery_date), exp_date_(exp_date), priсe_(price), cnt_pack_(cnt_pack) {}
 
-    ~Prod() {}
+    ~Prod() = default;
 
     void change_markdown_(int level) {
         if (level == 1) {
