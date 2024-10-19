@@ -1,0 +1,16 @@
+# ninja log v6
+2	1891	1729347759230633031	CMakeFiles/storage_model.dir/front/ProductCard/ProductCard.cpp.o	c9ac03dca5b53dd1
+1	1907	1729347759230633031	CMakeFiles/storage_model.dir/main.cpp.o	e6920d1a4776cd4a
+2	2152	1729347759230633031	CMakeFiles/storage_model.dir/front/App/App.cpp.o	47813853c163b676
+4	2025	1729348150322168571	CMakeFiles/Storage_model.dir/front/ProductCard/ProductCard.cpp.o	1283522c01623899
+3	2175	1729348150322168571	CMakeFiles/Storage_model.dir/front/App/App.cpp.o	a076f728d9d8a7f5
+3	2035	1729348150322168571	CMakeFiles/Storage_model.dir/main.cpp.o	a32c0b282666d068
+2	563	1729348206282957100	Storage_model_autogen/timestamp	827a17b0eb978923
+2	563	1729348206282957100	Storage_model_autogen/mocs_compilation.cpp	827a17b0eb978923
+2	563	1729348206282957100	/home/near/Storage_model/cmake-build-debug/Storage_model_autogen/timestamp	827a17b0eb978923
+2	563	1729348206282957100	/home/near/Storage_model/cmake-build-debug/Storage_model_autogen/mocs_compilation.cpp	827a17b0eb978923
+565	3719	1729348206289623906	CMakeFiles/Storage_model.dir/front/ProductCard/ProductCard.cpp.o	f6a59301732f3dd7
+564	3802	1729348206289623906	CMakeFiles/Storage_model.dir/main.cpp.o	792464a73808f719
+564	3962	1729348206289623906	CMakeFiles/Storage_model.dir/Storage_model_autogen/mocs_compilation.cpp.o	7c7acf9c03a55f43
+565	3997	1729348206289623906	CMakeFiles/Storage_model.dir/front/App/App.cpp.o	11f7eed686b6316a
+3997	4294	1729348209723029320	Storage_model	4bfb4e396b41c2db

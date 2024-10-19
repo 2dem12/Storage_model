@@ -1,5 +1,9 @@
-#include "back/main_back.hpp"
+#include <QApplication>
+#include "front/App/App.h"
 
-int main() {
-    run();
+int main(int argc, char *argv[]) {
+    QApplication a(argc, argv);
+    App app;
+    app.show();
+    return a.exec();
 }
