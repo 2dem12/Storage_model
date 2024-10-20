@@ -18,5 +18,4 @@ void run() {
       std::vector<std::vector<std::vector<Prod>>> all_requests_G(n, std::vector<std::vector<Prod>> (m));
       products.resize(k);
       generate_requests(all_requests_G);
-
 }
