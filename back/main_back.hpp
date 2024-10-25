@@ -9,13 +9,14 @@
 #include "database.hpp"
 #include "help_func.hpp"
 #include "shop_request.hpp"
-
+#include "buy_prod.h"
 
 
 void run() {
       srand(time(0));
       std::cin >> k >> m >> n;
       std::vector<std::vector<std::vector<Prod>>> all_requests_G(n, std::vector<std::vector<Prod>> (m));
-      products.resize(k);
+      products_sklad.resize(k);
       generate_requests(all_requests_G);
+      buy("Apple", 5);
 }

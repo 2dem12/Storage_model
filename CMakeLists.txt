@@ -8,5 +8,6 @@ add_executable(storage_model main.cpp
         back/class_prod.hpp
         back/database.hpp
         back/help_func.hpp
-        back/shop_request.hpp)
+        back/shop_request.hpp
+        back/buy_prod.h)
 

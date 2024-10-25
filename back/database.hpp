@@ -36,25 +36,25 @@ std::map<std::string, std::pair<int, int>> price_prod = {
 };
 
 
-std::vector<Prod> products = {
-    Prod("Egg", day, day + 10, 70),
-    Prod("Apple", day, day + 10, 50),
-    Prod("Milk", day, day + 10, 70),
-    Prod("Porridge", day, day + 20, 75),
-    Prod("Fish", day, day + 10, 400),
-    Prod("Bread", day, day + 10, 30),
-    Prod("Water", day, day + 20, 20),
-    Prod("Doshik", day, day + 20, 20),
-    Prod("Juice", day, day + 15, 50),
-    Prod("Meat", day, day + 15, 350),
-    Prod("Ice Cream", day, day + 10, 80),
-    Prod("Pasta", day, day + 20, 60),
-    Prod("Cheese", day, day + 10, 120),
-    Prod("Cupcake", day, day + 10, 150),
-    Prod("Tea", day, day + 25, 100),
-    Prod("Coffee", day, day + 25, 200),
-    Prod("Sweet", day, day + 15, 120),
-    Prod("Banana", day, day + 10, 40),
-    Prod("Nuts", day, day + 25, 500),
-    Prod("Cherry", day, day + 10, 1500)
+std::vector<Prod> products_sklad = {
+    Prod("Egg", day, day + 10, 70, 20),
+    Prod("Apple", day, day + 10, 50, 20),
+    Prod("Milk", day, day + 10, 70, 20),
+    Prod("Porridge", day, day + 20, 75, 20),
+    Prod("Fish", day, day + 10, 400, 20),
+    Prod("Bread", day, day + 10, 30, 20),
+    Prod("Water", day, day + 20, 20, 20),
+    Prod("Doshik", day, day + 20, 20, 20),
+    Prod("Juice", day, day + 15, 50, 20),
+    Prod("Meat", day, day + 15, 350, 20),
+    Prod("Ice Cream", day, day + 10, 80, 20),
+    Prod("Pasta", day, day + 20, 60, 20),
+    Prod("Cheese", day, day + 10, 120, 20),
+    Prod("Cupcake", day, day + 10, 150, 20),
+    Prod("Tea", day, day + 25, 100, 20),
+    Prod("Coffee", day, day + 25, 200, 20),
+    Prod("Sweet", day, day + 15, 120, 20),
+    Prod("Banana", day, day + 10, 40, 20),
+    Prod("Nuts", day, day + 25, 500, 20),
+    Prod("Cherry", day, day + 10, 1500, 20)
 };
